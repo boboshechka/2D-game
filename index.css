@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #74099B;
+    position: relative;
+}
+
+
+#player {
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    top: 250px;
+    left: 60px;
+    background: url(images/player.png);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+#hearts {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+#hearts span {
+    display: block;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    background: url(images/heart.png);
+    background-size: 30px;
+}
+
+.enemy {
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    right: 0;
+    top: 300px;
+    background: url(images/pngwing.com.png);
+}
+
+.bullet {
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    left: 250px;
+    background: url(images/bullet.png);
+}
+
+.boom {
+    background: url(images/boom-t-170x148.png);
+    height: 148px;
+    width: 170px;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+/* #modal-end-game {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+#modal-window {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+#content {
+    height: 30px;
+    text-align: center;
+    width: 100%;
+    background-color: gray;
+}
+
+#btn-close {
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    background-color: silver;
+    color: purple;
+    cursor: pointer;
+} */
